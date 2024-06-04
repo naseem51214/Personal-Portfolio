@@ -76,8 +76,8 @@ function Home() {
             </div>
           </div>
 
-          <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1 md:order-2">
-            <img src={pic} className="rounded-3xl object-cover  md:w-[350px] md:h-[350]" alt="" />
+          <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1 md:order-2" >
+            <img id="pro" src={pic} className=" rounded-full object-cover  md:w-[350px] md:h-[350]" alt="" style={{border: "1.5px solid rgb(29, 197, 94)" }}/>
           </div>
         </div>
       </div>

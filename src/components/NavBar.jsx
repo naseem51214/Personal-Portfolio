@@ -70,7 +70,7 @@ function NavBar() {
         {menu && (
 
         <div className="bg-white">
-          <ul className="md:hidden flex flex-col items-center justify-center h-screen space-3 text-xl ">
+          <ul className="md:hidden text-gray-700 flex flex-col items-center justify-center h-screen space-3 text-xl ">
           {
                 navItems.map(({id,text})=>(
                     <li className="hover:scale-105 duration-200 cursor-pointer font-semibold" key={id}>

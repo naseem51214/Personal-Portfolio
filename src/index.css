@@ -12,3 +12,7 @@ body{
 /* img{
     border: 1.3px solid rgb(29, 197, 94);
 } */
+
+div img #pro{
+    border: 1.3px solid rgb(29, 197, 94);
+}
