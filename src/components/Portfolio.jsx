@@ -1,12 +1,23 @@
 import React from 'react'
 import reactjs from '../../public/pojrcts/todo.png'
+import iShopping from '../../public/pojrcts/iShopping.png'
 function Portfolio() {
   const cardItems = [
     
     {
       id:1,
       logo:reactjs,
-      name:"Todo List"
+      name:"Todo List",
+      sourCode:['https://github.com/naseem51214/iList'],
+      demo:['https://i-list.vercel.app/']
+    },
+    {
+      id:2,
+      logo:iShopping,
+      name:"iShopping",
+      
+      sourCode:['https://github.com/naseem51214/iShopping'],
+      demo:['https://i-shopping.vercel.app/']
     }
     // {
     //   id:1,
@@ -57,8 +68,8 @@ function Portfolio() {
               <p className='px-2 text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div className='px-6 py-4 space-x-3 justify-around'>
-              <button className='w-20 h-10 bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'><a href='https://i-list.vercel.app/' target='_blank'>Demo</a></button>
-              <button className='w-30 h-10 bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded'><a href='https://github.com/naseem51214/iList' target='_blank'>Source Code</a></button>
+              <button className='w-20 h-10 bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'><a href={cardItems[0].demo} target='_blank'>Demo</a></button>
+              <button className='w-30 h-10 bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded'><a href={cardItems[0].sourCode} target='_blank'>Source Code</a></button>
             </div>
             </div>
           ))
